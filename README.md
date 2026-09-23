@@ -1,105 +1,193 @@
 <div align="center">
 
-# AI Job Application Assistant
-### Topic 2 — Understanding GPT Instructions: Instruction Drafting
+# 🤖 AI Job Application Assistant
 
-A structured Custom GPT designed to help fresh graduates and entry-level job seekers prepare stronger, more consistent job and internship applications.
+### **Topic 2 · Understanding GPT Instructions: Instruction Drafting**
+
+<p><b>A practical Custom GPT instruction-design & validation project</b></p>
 
 <p>
-<a href="https://www.loom.com/share/c2ec1c690bd64cd79239e126c020aeaavso">🎥 Watch Loom Demo</a> •
-<a href="instruction_block.md">📄 Instruction Block</a> •
-<a href="test_results_summary.md">🧪 Test Results</a> •
-<a href="AI_Job_Application_Assistant_Topic_2_Assessment_Submission.pdf">📑 Assessment PDF</a>
+<a href="https://www.loom.com/share/c2ec1c690bd64cd79239e126c020aeaavso">🎥 <b>WATCH DEMO</b></a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="instruction_block.md">📘 <b>INSTRUCTIONS</b></a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="test_results_summary.md">🧪 <b>TEST RESULTS</b></a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="AI_Job_Application_Assistant_Topic_2_Assessment_Submission.pdf">📑 <b>ASSESSMENT PDF</b></a>
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/Assessment-Topic%202-6C63FF?style=for-the-badge">
+<img src="https://img.shields.io/badge/Custom%20GPT-Configured-00A67E?style=for-the-badge">
+<img src="https://img.shields.io/badge/Validation-5%2F5%20Passed-FFB000?style=for-the-badge">
 </p>
 
 </div>
 
 ---
 
-## Project Overview
+## ✨ Project Snapshot
 
-**AI Job Application Assistant** is a Custom GPT concept focused on job and internship application preparation.
+**AI Job Application Assistant** is a purpose-built Custom GPT for **fresh graduates, college students, and entry-level job seekers**.
 
-### Core Capabilities
+It helps users move from a job description to application-ready materials through structured analysis — while maintaining factual accuracy and avoiding fabricated qualifications.
 
-- Analyze user-provided job descriptions
-- Extract key requirements and responsibilities
-- Compare requirements with the user's stated background
-- Identify skill matches and skill gaps
-- Suggest truthful resume improvements
-- Draft tailored cover letters and application responses
-- Provide an application-readiness checklist
+> **Design principle:** Helpful, structured, truthful, and application-focused.
 
-The assistant is intentionally designed **not** to make hiring decisions, impersonate recruiters, fabricate qualifications, or guarantee employment outcomes.
+---
 
-## Instruction Design
+## 🚀 What This GPT Does
 
-The instruction block defines the five core assessment areas:
-
-| Area | Purpose |
+| Capability | What it provides |
 |---|---|
-| **Role** | Establishes the GPT's purpose and target users |
-| **Scope** | Defines what the GPT can and cannot help with |
-| **Tone** | Keeps responses professional, supportive, practical, and clear |
-| **Output Format** | Encourages structured responses |
-| **Constraints** | Enforces factual accuracy, privacy, scope, no fabrication, and no guarantees |
+| 🔍 **Job Description Analysis** | Extracts responsibilities, skills, qualifications, keywords, and expectations |
+| 🎯 **Skill Matching** | Compares stated user skills, education, projects, and experience with requirements |
+| 🧩 **Gap Identification** | Highlights missing, unclear, or developing skills |
+| 📄 **Resume Support** | Suggests truthful, job-aligned resume wording and bullets |
+| ✍️ **Application Content** | Helps draft cover letters and application responses |
+| ✅ **Readiness Checklist** | Provides a practical pre-submission checklist |
 
-### Deliverable
+---
 
-**[→ Open Instruction Block](instruction_block.md)**
+## 🧠 Instruction Architecture
 
-## Testing & Refinement
+The GPT is controlled through five core instruction layers:
 
-The working GPT was tested against five required query categories:
+### 01 · Role
+Defines the assistant's purpose, target users, and career-application support responsibility.
 
-1. **In-scope**
-2. **Out-of-scope**
-3. **Casual**
-4. **Vague**
-5. **Format-specific**
+### 02 · Scope
+Defines what the GPT **can** and **cannot** do, including strict handling of unrelated requests.
 
-Initial testing identified two inconsistencies. The instructions were refined specifically for strict scope enforcement and ambiguity handling, then the affected tests were retested.
+### 03 · Tone
+Professional, clear, supportive, practical, concise, and student-friendly.
 
-### Final Validation
+### 04 · Output Format
+Uses structured headings, bullets, tables, and a consistent job-analysis flow.
 
-**5/5 tests behaved as expected after instruction refinement.**
+### 05 · Behavioral Constraints
+The instruction set contains **10 explicit constraints**, covering:
 
-**[→ View Complete Test Results](test_results_summary.md)**
+- 🚫 No fabrication
+- 🎯 Strict scope control
+- ❓ Missing/unclear input handling
+- ⚠️ No guaranteed employment outcomes
+- 📌 Factual accuracy
+- 🔎 Facts vs. suggestions
+- 📐 Requested-format compliance
+- 🔐 Privacy
+- 💬 Transparent limitations
+- 👔 No recruiter/employer impersonation
 
-## Assessment Deliverables
+### 📘 Full Instruction Block
 
-| Deliverable | Status | Access |
-|---|---|---|
-| Instruction Block | ✅ Complete | [Open file](instruction_block.md) |
-| Test Results Summary | ✅ Complete | [Open file](test_results_summary.md) |
-| Working Custom GPT | ✅ Tested | Demonstrated in Loom |
-| Loom Walkthrough | ✅ Complete | [Watch video](https://www.loom.com/share/c2ec1c690bd64cd79239e126c020aeaavso) |
-| Consolidated Assessment PDF | ✅ Prepared | [Open PDF](AI_Job_Application_Assistant_Topic_2_Assessment_Submission.pdf) |
+**[OPEN THE COMPLETE INSTRUCTION BLOCK →](instruction_block.md)**
 
-## 🎥 Loom Demonstration
+---
+
+## 🧪 Testing & Iterative Refinement
+
+The GPT was deliberately tested against **five different behavioral situations**:
+
+| # | Test Type | Purpose | Final |
+|---:|---|---|:---:|
+| 01 | 🟢 In-Scope | Valid job-application request | ✅ |
+| 02 | 🔴 Out-of-Scope | Unrelated request handling | ✅ |
+| 03 | 💬 Casual | Tone + scope behavior | ✅ |
+| 04 | 🟡 Vague | Clarification / ambiguity handling | ✅ |
+| 05 | 📐 Format-Specific | Exact output-format compliance | ✅ |
+
+### 🔬 What happened during testing?
+
+Initial testing identified **two inconsistencies**:
+
+**Issue 01 — Scope Enforcement**  
+The GPT initially answered an unrelated factual question instead of redirecting it.
+
+**Issue 02 — Ambiguous Input**  
+The GPT initially assumed which application the user meant when the request was vague.
+
+### 🛠️ Refinement
+
+The relevant instructions were strengthened and the affected tests were repeated.
+
+### 🏆 Final Validation
+
+# **5 / 5 Tests Passed**
+
+All five final behaviors matched the intended instruction design.
+
+**[VIEW THE COMPLETE TEST RESULTS →](test_results_summary.md)**
+
+---
+
+## 🎥 Assessment Walkthrough
+
+The Loom demonstration walks through the complete assessment flow:
 
 **Instruction Block → Working Custom GPT → Five Tests → Refinement → Retesting → Final Results**
 
-**[▶ Watch the Loom Assessment Demo](https://www.loom.com/share/c2ec1c690bd64cd79239e126c020aeaavso)**
+### ▶️ [WATCH THE LOOM DEMO](https://www.loom.com/share/c2ec1c690bd64cd79239e126c020aeaavso)
 
-## Repository Structure
+---
+
+## 📦 Assessment Deliverables
+
+| Deliverable | Status | Open |
+|---|:---:|---|
+| 📘 Instruction Block | ✅ | [Open](instruction_block.md) |
+| 🧪 Test Results Summary | ✅ | [Open](test_results_summary.md) |
+| 🤖 Working Custom GPT | ✅ | [See Loom](https://www.loom.com/share/c2ec1c690bd64cd79239e126c020aeaavso) |
+| 🎥 Loom Video | ✅ | [Watch](https://www.loom.com/share/c2ec1c690bd64cd79239e126c020aeaavso) |
+| 📑 Consolidated Assessment PDF | ✅ | [Open PDF](AI_Job_Application_Assistant_Topic_2_Assessment_Submission.pdf) |
+
+---
+
+## 🗂️ Repository Structure
 
 ```text
-ai-job-application-assistant-gpt-instructions/
-├── instruction_block.md
-├── test_results_summary.md
-├── AI_Job_Application_Assistant_Topic_2_Assessment_Submission.pdf
-└── README.md
+📦 ai-job-application-assistant-gpt-instructions
+│
+├── 📘 instruction_block.md
+├── 🧪 test_results_summary.md
+├── 📑 AI_Job_Application_Assistant_Topic_2_Assessment_Submission.pdf
+└── 📖 README.md
 ```
 
-## Assessment Outcome
+---
 
-This repository documents the complete instruction-drafting and validation workflow for the **AI Job Application Assistant**.
+## 🎓 Assessment Coverage
 
-**Final validation result: 5/5 expected behaviors passed.**
+This project demonstrates:
 
-## Author
+- ✅ Explicit Role definition
+- ✅ Clear Scope boundaries
+- ✅ Defined Tone
+- ✅ Structured Output Format
+- ✅ 10 behavioral constraints
+- ✅ Refusal / redirection behavior
+- ✅ Missing-input handling
+- ✅ Iterative instruction refinement
+- ✅ Multi-type behavioral testing
+- ✅ Retesting after refinement
+- ✅ Final consistency validation
 
-**Shaik Mohammad Shaheed**
+---
 
-Topic 2 — GPT Instructions: Instruction Drafting
+## 👤 Author
+
+### **Shaik Mohammad Shaheed**
+
+**AI & Automation · Generative AI · Prompt Engineering · AI Agent Engineering**
+
+> Topic 2 — Understanding GPT Instructions: Instruction Drafting
+
+---
+
+<div align="center">
+
+### ⭐ Assessment Status: **COMPLETE**
+
+**Designed → Configured → Tested → Refined → Retested → Documented**
+
+</div>
